@@ -1,0 +1,55 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Home Page - MovieBooking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The home page of my website" />
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+
+    <div class="wrapper">
+        <header role="banner">
+            <nav class="container">
+                <ul>
+                    <li><a href="/">Movie Booking App</a></li>
+                    <li><a href="/">Home</a></li>                   
+                </ul>
+            </nav>
+        </header>
+
+        <main class="container">
+            <h1>Ticket Availablity</h1>
+            <div id="cinema-ddl">
+                <span style="padding-right:10px">Choose Cinema: </span>
+                <select id="cinema"></select>
+            </div>
+            <div id="movie-tab"><div>Movies List</div>
+            <div><span class="tabbed">Movie Name</span>
+            <span class="main">Availability</span></div>                
+            <ul></ul>
+            </div>
+</main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <span>&copy; 2016 - MovieBooking</span>
+        </div>
+    </footer>
+
+    <script src="/js/lib/jquery-3.1.1.min.js"></script>
+    <script src="/js/lib/underscore.js"></script>
+    <script src="/js/lib/backbone-min.js"></script>
+    <script src="/js/lib/require.js"></script>
+    <script src="/js/App.js"></script>
+    <script src="/js/models/CinemaModel.js"></script>
+    <script src="/js/models/MovieModel.js"></script>
+    <script src="/js/collections/CinemaCollection.js"></script>
+    <script src="/js/collections/MovieCollection.js"></script>
+    <script src="/js/views/MovieView.js"></script>
+    <script src="/js/views/CinemaView.js"></script>
+</body>
+</html>
