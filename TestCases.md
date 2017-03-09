@@ -1,7 +1,8 @@
-<p><h2>Test Cases for WebAPI</h2></p>
+<p><h2>Test Cases</h2></p>
 
 <p>
 <ul>
+<h4>For WebAPI</h4>
 <h4>Happy path scenarios</h4>
 <li>A client should be able to GET all Cinema theater names and Id list</li>
 <li>A client should be able to GET one Cinema theater by Id</li>
